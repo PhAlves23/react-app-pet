@@ -35,3 +35,58 @@ export const DivFicha = styled.div`
     }
   }
 `;
+
+export const DivForm = styled.div`
+  width: 400px;
+  margin: 2rem auto 0.5rem auto;
+  form {
+    padding: 1rem 2rem;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+
+    fieldset {
+      border: none;
+    }
+    legend {
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 0.1rem;
+    }
+    input {
+      &[type="text"] {
+        width: 100%;
+        height: 2rem;
+        margin-bottom: 0.5rem;
+        padding-left: 1rem;
+        border: none;
+        border-radius: 5px;
+        filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.07));
+      }
+
+      &[type="file"] {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      padding: 1rem;
+      height: 5rem;
+      resize: none;
+      border: none;
+      border-radius: 5px;
+      filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.07));
+    }
+  }
+`;
