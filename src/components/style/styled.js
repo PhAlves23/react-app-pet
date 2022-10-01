@@ -90,3 +90,18 @@ export const DivForm = styled.div`
     }
   }
 `;
+export const AdicionarFicha = styled.div`
+  text-align: center;
+  margin: 0 0 2rem 0;
+  button {
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(178.81deg, #5bba83 5.91%, #42865f 102.49%);
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      background: linear-gradient(178.81deg, #5bba83 100%, #42865f 0%);
+    }
+  }
+`;
